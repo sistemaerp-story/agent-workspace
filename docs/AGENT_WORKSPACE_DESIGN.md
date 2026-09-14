@@ -92,7 +92,7 @@ Crear un **workspace compartido para los agentes de StoryWeProduce** (Hermes, Op
 - #3 Escribir README con propósito, JTBD, convenciones de nombres, flujo de contribución y formato de handoff.
 - #4 Crear templates de handoff, decision record y lección aprendida.
 - #5 Migrar skills/constraints críticas de Hermes al workspace como single source of truth.
-- #6 Crear carpetas de negocio (`business/`, `projects/`, `clients/`, `vendors/`, `talent/`) para modelar el dominio de StoryWeProduce.
+- #6 Crear carpeta `business/` con los 5 archivos de company brain (`company.md`, `customer.md`, `offer.md`, `voice.md`, `user.md`) usando la metodología de Charlie Hills.
 
 ### EPIC-2 — Handoffs y decision records funcionales
 **Objetivo:** que cualquier agente pueda dejar y consumir handoffs y decisiones en el workspace.

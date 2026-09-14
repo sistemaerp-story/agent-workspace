@@ -39,7 +39,7 @@ StoryWeProduce opera con múltiples agentes (Hermes, OpenClaw, Kimi y futuros) e
 | 3 | README operativo | Escribir README con propósito, JTBD, convenciones de nombres, flujo de contribución y formato de handoff. | README mergeado en main. | ✅ Hecho |
 | 4 | Templates base | Crear templates de handoff, decision record y lesson learned. | 3 templates mergeados y probados. | ✅ Hecho |
 | 5 | Migrar skills/constraints críticas | Migrar de Hermes skills/constraints clave como single source of truth inicial. | Al menos 2 constraints y 2 skills migrados y funcionales. | ⏳ Pendiente |
-| 6 | Carpetas de negocio y proyectos | Crear carpetas adicionales para comprender el negocio: `business/`, `projects/`, `clients/`, `vendors/`, `talent/` con mapas de dominio. | Estructura de negocio documentada y validada por Jorge. | ⏳ Pendiente |
+| 6 | Carpetas de negocio y proyectos | Crear carpeta `business/` con los 5 archivos base de company brain: `company.md`, `customer.md`, `offer.md`, `voice.md`, `user.md` (perfil de Jorge), usando la metodología de Charlie Hills. | 5 archivos creados con citas verbatim y métricas de voz. Validado por Jorge. | ⏳ Pendiente |
 
 ---
 
