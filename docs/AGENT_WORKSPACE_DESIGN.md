@@ -141,3 +141,12 @@ Crear un **workspace compartido para los agentes de StoryWeProduce** (Hermes, Op
 
 ## Autor
 Hermes Agent / StoryWeProduce
+
+## Repo y épicas creadas
+- Repo: https://github.com/sistemaerp-story/agent-workspace
+- EPIC-1: https://github.com/sistemaerp-story/agent-workspace/issues/1
+- EPIC-2: https://github.com/sistemaerp-story/agent-workspace/issues/2
+- EPIC-3: https://github.com/sistemaerp-story/agent-workspace/issues/3
+- EPIC-4: https://github.com/sistemaerp-story/agent-workspace/issues/4
+- EPIC-5: https://github.com/sistemaerp-story/agent-workspace/issues/5
+- Sub-issues: #6 a #20
