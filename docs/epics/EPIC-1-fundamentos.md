@@ -39,6 +39,7 @@ StoryWeProduce opera con múltiples agentes (Hermes, OpenClaw, Kimi y futuros) e
 | 3 | README operativo | Escribir README con propósito, JTBD, convenciones de nombres, flujo de contribución y formato de handoff. | README mergeado en main. | ✅ Hecho |
 | 4 | Templates base | Crear templates de handoff, decision record y lesson learned. | 3 templates mergeados y probados. | ✅ Hecho |
 | 5 | Migrar skills/constraints críticas | Migrar de Hermes skills/constraints clave como single source of truth inicial. | Al menos 2 constraints y 2 skills migrados y funcionales. | ⏳ Pendiente |
+| 6 | Carpetas de negocio y proyectos | Crear carpetas adicionales para comprender el negocio: `business/`, `projects/`, `clients/`, `vendors/`, `talent/` con mapas de dominio. | Estructura de negocio documentada y validada por Jorge. | ⏳ Pendiente |
 
 ---
 
@@ -51,6 +52,20 @@ StoryWeProduce opera con múltiples agentes (Hermes, OpenClaw, Kimi y futuros) e
 - Constraints `no-auto-install.md` y `data-redaction.md`.
 
 ---
+
+
+
+### Preguntas clave adicionales del comentario de Jorge
+- ¿Qué carpetas adicionales necesitamos para modelar el negocio de StoryWeProduce (proyectos, clientes, proveedores, talento, producción)?
+- ¿Cómo garantizamos que todos los agentes (Hermes, OpenClaw, Kimi) compartan información sin duplicarla?
+- ¿Qué información va a GitHub (texto, código, decisiones) y qué va a Drive (archivos grandes, assets, videos)?
+- ¿Cómo detectamos y eliminamos documentos huérfanos de forma periódica?
+- ¿Qué significa "higiene extrema" en worktrees y directorios del workspace?
+
+### Decisiones derivadas del comentario
+- Agregar carpetas de negocio al workspace, no solo técnicas.
+- Definir política de almacenamiento dual: GitHub para texto/estructura, Drive para archivos grandes.
+- Implementar revisión periódica de huérfanos y worktrees limpios.
 
 ## Riesgos
 

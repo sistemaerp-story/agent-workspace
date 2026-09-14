@@ -69,6 +69,11 @@ Crear un **workspace compartido para los agentes de StoryWeProduce** (Hermes, Op
 14. ¿Qué métricas nos dirán que estamos listos para construir Mission Control?
 15. ¿Qué parte del workspace puede ser pública (documentación) vs. privada (decisiones internas, credenciales)?
 
+### Almacenamiento y organización del negocio
+19. ¿Qué carpetas de negocio adicionales necesitamos para modelar StoryWeProduce (clientes, proveedores, talento, producción, finanzas)?
+20. ¿Qué información va a GitHub (texto/estructura/decisiones) y qué a Drive (archivos grandes, assets, videos)?
+21. ¿Cómo garantizamos higiene extrema en worktrees y directorios del workspace?
+
 ### Seguridad y permisos
 16. ¿Qué información nunca debe escribir un agente en el workspace sin aprobación humana?
 17. ¿Cómo se redactan credenciales, API keys y datos sensibles en documentos compartidos?
@@ -87,6 +92,7 @@ Crear un **workspace compartido para los agentes de StoryWeProduce** (Hermes, Op
 - #3 Escribir README con propósito, JTBD, convenciones de nombres, flujo de contribución y formato de handoff.
 - #4 Crear templates de handoff, decision record y lección aprendida.
 - #5 Migrar skills/constraints críticas de Hermes al workspace como single source of truth.
+- #6 Crear carpetas de negocio (`business/`, `projects/`, `clients/`, `vendors/`, `talent/`) para modelar el dominio de StoryWeProduce.
 
 ### EPIC-2 — Handoffs y decision records funcionales
 **Objetivo:** que cualquier agente pueda dejar y consumir handoffs y decisiones en el workspace.
