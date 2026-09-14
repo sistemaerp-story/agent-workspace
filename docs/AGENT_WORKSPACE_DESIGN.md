@@ -142,6 +142,13 @@ Crear un **workspace compartido para los agentes de StoryWeProduce** (Hermes, Op
 ## Autor
 Hermes Agent / StoryWeProduce
 
+## Documentos de épicas detallados
+- `docs/epics/EPIC-1-fundamentos.md`
+- `docs/epics/EPIC-2-handoffs-decisions.md`
+- `docs/epics/EPIC-3-sincronizacion-conocimiento.md`
+- `docs/epics/EPIC-4-integracion-pwa-github.md`
+- `docs/epics/EPIC-5-mission-control.md`
+
 ## Repo y épicas creadas
 - Repo: https://github.com/sistemaerp-story/agent-workspace
 - EPIC-1: https://github.com/sistemaerp-story/agent-workspace/issues/1
